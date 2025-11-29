@@ -153,3 +153,5 @@ test("clicking on the map creates an AOI", async ({ page }) => {
   await expect(page.getByText(/AOI 1/i)).toBeVisible();
 });
 ```
+Total time spent: ~6–8 hours across development, debugging, and documentation.
+
